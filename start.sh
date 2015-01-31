@@ -13,8 +13,8 @@ docker build -t docker-openvpnas .
 docker run -p 443:443/tcp -p 943:943/tcp -p 1194:1194/udp -d --privileged -t docker-openvpnas:latest /sbin/my_init --enable-insecure-key
 
 # install docker-ssh
-curl --fail -L -O https://github.com/phusion/baseimage-docker/archive/master.tar.gz
-tar xzf master.tar.gz
-sudo ./baseimage-docker-master/install-tools.sh
-rm -rf baseimage-docker-master
-rm -f master.tar.gz base
+#curl --fail -L -O https://github.com/phusion/baseimage-docker/archive/master.tar.gz
+#tar xzf master.tar.gz
+#sudo ./baseimage-docker-master/install-tools.sh
+#rm -rf baseimage-docker-master
+#rm -f master.tar.gz base
