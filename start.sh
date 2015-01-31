@@ -18,4 +18,3 @@ tar xzf master.tar.gz
 sudo ./baseimage-docker-master/install-tools.sh
 rm -rf baseimage-docker-master
 rm -f master.tar.gz base
-

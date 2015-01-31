@@ -20,3 +20,5 @@ expose 1194/udp
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 RUN rm openvpn-as-2.0.12-Ubuntu14.amd_64.deb
 
+RUN mkdir -p /etc/my_init.d
+ADD scripts/restart_openvpnas.sh /etc/my_init.d/restart_openvpnas.sh
